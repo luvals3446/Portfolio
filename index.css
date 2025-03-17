@@ -119,3 +119,13 @@ a {
 
 }
 
+@media screen and (max_width: 768) {
+
+    .My-Image {
+
+        display: block;
+        width: 100%;
+
+    }
+    
+}
