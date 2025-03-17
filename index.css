@@ -1,0 +1,121 @@
+body {
+
+    margin: 10px;
+    background: linear-gradient(to bottom right, rgb(54, 51, 65), rgb(23, 21, 32));
+    overflow-x: hidden;
+
+}
+
+.Home {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 98.5vw;
+    height: 90vh;
+    background: linear-gradient(to bottom right, rgb(54, 51, 65), rgb(23, 21, 32));
+
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+
+    color: white;
+
+}
+
+.My-Image {
+
+    display: block;
+    margin: 0, auto;
+
+    width: 20vw;
+    max-width: 300px;
+    height: auto;
+
+    border-radius: 50%;
+
+    box-shadow: 10px 10px 0px rgb(23, 21, 32);
+
+}
+
+.My-Infos {
+
+    margin: 20px;
+
+}
+
+.Links {
+
+    width: 90vw;
+
+}
+
+.Links-List {
+
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Links-List li {
+
+    margin: 10px;
+
+    text-shadow: 10px 10px 0px rgba(23, 21, 32, 0);
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.Home-Link {
+
+    align-self: center;
+
+}
+
+.About-Me-Link {
+
+    align-self: right;
+
+}
+
+h1 {
+
+    text-shadow: 10px 10px 0px rgba(23, 21, 32, 0);
+
+}
+
+h4 {
+
+    text-shadow: 10px 10px 0px rgba(23, 21, 32, 0);
+
+}
+
+.Links-List li:hover {
+
+    scale: 130%;
+
+}
+
+
+a {
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
