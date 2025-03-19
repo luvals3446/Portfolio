@@ -48,8 +48,8 @@ body {
 
 .Links {
 
-    width: 90vw;
-
+    width: 100vw;
+    
 }
 
 .Links-List {
@@ -67,6 +67,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    gap: 20px;
 
 }
 
