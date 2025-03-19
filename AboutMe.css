@@ -1,5 +1,7 @@
 body {
 
+    margin: 10px;
     background: linear-gradient(to bottom right, rgb(54, 51, 65), rgb(23, 21, 32));
+    overflow-x: hidden;
 
 }
